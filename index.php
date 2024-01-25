@@ -5,9 +5,11 @@
 </head>
 <body>
     <?php 
-    echo 'utilizando tag padrão'
+    echo 'utilizando tag padrão';
     ?> 
 
-    <?= 'Tag de impressão.'?>
+    </br>
+    
+    <?=  'Tag de impressão.'?>
 </body>
 </html>
