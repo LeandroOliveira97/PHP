@@ -7,9 +7,9 @@
     <?php 
     echo 'utilizando tag padrão';
     ?> 
-
-    </br>
     
+    </br>
     <?=  'Tag de impressão.'?>
+    
 </body>
 </html>
