@@ -26,40 +26,43 @@
     ?> 
 
     <?php 
+ 
+ 
+        // $coisas = [];
 
-    $coisas = [];
+        // $coisas['frutas'] = [1 => 'Banana', 2 => 'Morango', 3 => 'Abacate'];
 
-    $coisas['frutas'] = [1 => 'Banana', 2 => 'Morango', 3 => 'Abacate'];
+        // $coisas['Pessoas'] = [1 => 'José', 2 => 'Ricardo', 3=> 'Gabriel'];
 
-    $coisas['Pessoas'] = [1 => 'José', 2 => 'Ricardo', 3=> 'Gabriel'];
+        // echo '<pre>';
+        // print_r($coisas);
+        // echo '</pre> <hr>';
 
-    echo '<pre>';
-    print_r($coisas);
-    echo '</pre> <hr>';
+        // echo $coisas['frutas'][3];
+        // echo '<br>';
+        // echo $coisas['Pessoas'][2];
+        // echo '<hr>';
 
-    echo $coisas['frutas'][3];
-    echo '<br>';
-    echo $coisas['Pessoas'][2];
-    echo '<hr>';
+        // // //true ou false pra percorrer e encontrar no array
+        // // if(in_array('José', $coisas['Pessoas'])){
+        // //     echo 'Encontrado!';
+        // // } else {
+        // //     echo 'Não encontrado!';
+        // // }
 
-    // //true ou false pra percorrer e encontrar no array
-    // if(in_array('José', $coisas['Pessoas'])){
-    //     echo 'Encontrado!';
-    // } else {
-    //     echo 'Não encontrado!';
-    // }
+        // // Recupera o índice onde está armazanado o parametro, caso seja encontrado
+        // $posicao = array_search('Banana', $coisas['frutas']);
 
-    // Recupera o índice onde está armazanado o parametro, caso seja encontrado
-    $posicao = array_search('Banana', $coisas['frutas']);
-
-    
-    if($posicao){
-        echo  $coisas['frutas'][$posicao] . ' encontrado! Na posição: ' . $posicao . '.';
-    } else {
-        echo 'Não encontrado.';
-    }
+        
+        // if($posicao){
+        //     echo  $coisas['frutas'][$posicao] . ' encontrado! Na posição: ' . $posicao . '.';
+        // } else {
+        //     echo 'Não encontrado.';
+        // }
 
     ?> 
+
+    
 
     
         
